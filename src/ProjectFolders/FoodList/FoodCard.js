@@ -4,9 +4,6 @@ import Button from '@mui/material/Button';
 import { useState } from 'react';
 import Alert from '@mui/material/Alert';
 import CheckIcon from '@mui/icons-material/Check';
-import Header from '../HeaderFolder/Header';
-
-
 export default function FoodCard({ food, onAddToCart }) {
     const [color, setColor] = useState("primary")
     const [Text, setTex] = useState('Add To Shopping Cart')

@@ -1,8 +1,6 @@
 import './section1style.css'
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import FoodList from '../FoodList/FoodList';
-
 export default function MainSection() {
     return (
         <>

@@ -6,7 +6,6 @@ import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import CloseIcon from "@mui/icons-material/Close";
 import './payment.css'
-import Dialog from '@mui/material/Dialog';
 export default function Payment({ handleCloseClick }) {
     return (
         <form
