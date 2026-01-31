@@ -1,0 +1,47 @@
+.loginHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.LoginInputs {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.loginDivButton {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.LoginButton {
+  width: 80%;
+  background-color: #ff6b00 !important;
+}
+
+.singUp {
+  text-align: center;
+}
+
+.singUp button {
+  border: none;
+  color: #ff6b00 !important;
+}
+
+.mainDiv {
+  animation: fadeUp 0.8s ease forwards;
+}
+
+@keyframes fadeUp {
+  0% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

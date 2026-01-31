@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.HeaderContainer {
+  background-color: #121212;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid gray 2px;
+}
+
+.Logo {
+  width: 25%;
+  text-align: center;
+}
+
+.mainButtons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.secondButtons {
+  width: 25%;
+}
+* {
+  scroll-behavior: smooth;
+}
+.singInButton {
+  border: solid gray 2px !important;
+  border-radius: 10px !important;
+  color: white !important;
+}
+
+.secondButtons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 450px) {
+  #mainButtons {
+    display: none;
+  }
+  .mainButtons {
+    width: 0;
+  }
+  .Logo {
+    width: 50%;
+  }
+  .secondButtons {
+    width: 50%;
+  }
+}
