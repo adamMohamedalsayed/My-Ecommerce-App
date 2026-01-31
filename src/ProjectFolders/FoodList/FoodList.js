@@ -97,7 +97,7 @@ const list = [
 
 
 export default function FoodList({ onAddToCart }) {
-    const [listState, setListState] = useState(list)
+    const [listState] = useState(list)
     const [cate, setcate] = useState('all')
 
     const all = listState; // كل العناصر

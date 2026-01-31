@@ -33,10 +33,6 @@ export default function Header({ cartItems }) {
         setOpen2(false);
     };
 
-    function handleClosediolog2() {
-        setOpen2(false);
-    }
-
     return (
         <div className='HeaderContainer'>
             {/*  */}
